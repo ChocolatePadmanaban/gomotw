@@ -30,3 +30,11 @@ func main() {
 ```
 
 - Upper case title can be given to other languages too
+
+## OutPut :
+
+```
+String_Functions % go run .    
+The Quick Brown Fox Jumped Over The Lazy Dog.
+En İyi Web Sitesi
+```
