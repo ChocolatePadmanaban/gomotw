@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 # String Functions Goglang 
 
 - First Letter of the Words Capital 
