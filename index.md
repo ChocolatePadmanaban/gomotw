@@ -4,6 +4,6 @@ layout: default
 
 Gomotw is Golang Module Of The Week Codex
 
-## Librecad Notes
+## Text Formatting
 
 - [String Functions](./1_Strings/README.html)
