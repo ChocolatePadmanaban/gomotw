@@ -85,6 +85,7 @@ func main() {
 
 - `+` symbol represents one or more occurences of a specific character 
 - In the following example the pattern places it after the `\d` symbol to find matches to one or more occurences of a single digit 
+
 ```
 package main
 
@@ -107,13 +108,17 @@ func main() {
 	fmt.Println(matches)
 }
 ```
+
 **Output:**
+
 ```
 [32 17]
 ```
+
 - `*` symbol represents zero, one, or more occurences of specific characters.
 - if you want to indicate specific number of repetitions to allow, you can place this number in curly brackets `{ }`
 - In the following example, the regular expression pattern `\d{2}` instructs go to return all matches of exactly two single digits in a row from string of multiple device IDs:
+
 ```
 package main
 
@@ -136,10 +141,13 @@ func main() {
 	fmt.Println(matches)
 }
 ```
+
 **Output:**
+
 ```
 [32 17 82 29 94]
 ```
+
 - you can specify range within curly brakets by separating two numbers with a comma.
 - example `\d{1,3}` will get all digits from 1 to 3 
 
@@ -152,7 +160,9 @@ username followed by a colon `:`, their attempted logins for the day, and their 
 ```
 employee_logins_string := "1001 bmoreno: 12 Marketing 1002 tshah: 7 Human Resources 1003 sgilmore: 5 Finance"
 ```
+
 - Our task is to extract the username and the login attempts, without the employee's ID number or department.
+
 ```
 package main
 
@@ -176,7 +186,9 @@ func main() {
 	fmt.Println(matches)
 }
 ```
+
 **Output:**
+
 ```
 [bmoreno: 12 tshah: 7 sgilmore: 5]
 ```
@@ -184,6 +196,7 @@ func main() {
 ## Construct a pattern 2:
 
 - Construct a regular expression to get the email-id of the email logs
+
 ```
 package main
 
@@ -211,7 +224,9 @@ func main() {
 	fmt.Println(matches)
 }
 ```
+
 **Output:**
+
 ```
 [user1@email.com user2@email.com invalid_email@email.com]
 ```
