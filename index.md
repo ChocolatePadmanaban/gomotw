@@ -19,3 +19,4 @@ Gomotw is Golang Module Of The Week Codex
 
 - [String Functions](./1_Strings/README.html)
 - [String Template](./2_Golang_Templates/README.html)
+- [Regular Expressions](./3_regex/README.html)
