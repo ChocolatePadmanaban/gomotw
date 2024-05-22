@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Golang Regular Expressions :
 
 ## Simple Regex in golang:
